@@ -1,0 +1,27 @@
+{
+    "development": {
+      "username": "dbuser",
+      "password": "123456",
+      "database": "test",
+      "host": "192.168.147.131",
+      "port": 5432,
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "dbuser",
+      "password": "123456",
+      "database": "test",
+      "host": "192.168.147.131",
+      "port": 5432,
+      "dialect": "postgres"
+    },
+    "production": {
+      "username": "dbuser",
+      "password": "123456",
+      "database": "test",
+      "host": "192.168.147.131",
+      "port": 5432,
+      "dialect": "postgres"
+    }
+  }
+  

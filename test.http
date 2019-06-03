@@ -1,0 +1,50 @@
+@hostname = localhost
+@port = 3333
+@host = {{hostname}}:{{port}}
+@contentType = application/json
+# 根据id查用户
+GET http://{{host}}/api/users?id=6cb84356-2e97-40b3-86b6-cb41c2bbd52f
+autoToken: 'sdsdsdssd'
+# # 分页查用户
+# GET http://{{host}}/api/userList?offset=0&limit=10
+# # 更新用户
+# PUT http://{{host}}/api/users?id=5d16e32a-8068-4eff-b541-282863afc5a7
+# Content-Type: application/json
+
+# {
+#     "name": "davidpan",
+#     "password": 25
+# }
+
+# # 新建用户
+# POST http://{{host}}/api/users
+# Content-Type: application/json
+
+# {
+#     "name": "david1234",
+#     "password": 21
+# }
+
+# # 用户注册
+# POST http://{{host}}/api/users/register
+# Content-Type: application/json
+
+# {
+#     "name": "david1234",
+#     "password": "123456"
+# }
+
+# # 用户登录
+# POST http://{{host}}/api/users/login
+# Content-Type: application/json
+
+# {
+#     "name": "david1234",
+#     "password": "123456"
+# }
+
+
+# DELETE http://{{host}}/api/users/5d16e32a-8068-4eff-b541-282863afc5a7
+
+
+

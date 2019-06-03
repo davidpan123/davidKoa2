@@ -1,0 +1,12 @@
+{
+    "development": {
+        "host": "192.168.147.131",
+        "redisPort": 6379
+    },
+    "production": {
+        "host": "192.168.147.131",
+        "redisPort": 6379
+    },
+    "expires": 86400
+}
+  

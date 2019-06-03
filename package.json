@@ -1,0 +1,25 @@
+{
+  "name": "davidkoaapp",
+  "version": "1.0.0",
+  "description": "David-koa app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --use_strict app.js"
+  },
+  "author": "david pan",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "node-uuid": "^1.4.8"
+  },
+  "dependencies": {
+    "pg": "^7.10.0",
+    "pg-hstore": "^2.3.2",
+    "redis": "^2.8.0",
+    "sequelize": "^5.8.0",
+    "sequelize-cli": "^5.4.0"
+  }
+}
